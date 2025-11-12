@@ -1,4 +1,3 @@
-
 const formSuscripcion = document.getElementById('form-suscripcion');
 if (formSuscripcion) {
   formSuscripcion.addEventListener('submit', (e) => {
@@ -11,7 +10,6 @@ if (formSuscripcion) {
   });
 }
 
-
 const botonEnviar = document.getElementById('enviar');
 if (botonEnviar) {
   botonEnviar.addEventListener('click', () => {
@@ -21,7 +19,7 @@ if (botonEnviar) {
     const resultado = document.getElementById('resultado');
 
     if (nombre && email && mensaje) {
-      resultado.textContent = 'Tu mensaje ha sido enviado exitosamente.';
+      resultado.textContent = 'Tu mensaje ha sido enviado exitosamente ✅';
     } else {
       resultado.textContent = 'Por favor completa todos los campos.';
     }
