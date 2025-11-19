@@ -25,3 +25,15 @@ if (botonEnviar) {
     }
   });
 }
+const preguntas = document.querySelectorAll("#faq b");
+
+preguntas.forEach(pregunta => {
+  pregunta.addEventListener("mouseover", () => {
+    pregunta.style.color = "blue";
+  });
+
+  pregunta.addEventListener("mouseout", () => {
+    pregunta.style.color = "black";
+  });
+});
+
