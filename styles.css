@@ -33,10 +33,3 @@ button {
 button:hover {
   background: #005fcc;
 }
-
-#preg_frecuentes {
-  padding: 10px;
-  background: #ffffff;
-  margin: 20px;
-  border-radius: 5px;
-}
